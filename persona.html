@@ -1,70 +1,49 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>My 333 Project Personas</title>
-<link href="2column.css" rel="stylesheet" type="text/css"><!--[if lt IE 9]>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
+  <link href="Layouts/head.html" rel="import">
 </head>
 
 <body>
+  <div class="container">
+    <div id="header"></div>
+    <div id="sidebar"></div>
 
-<div class="container">
-  <header>
-    <a href="#"><img src="Media/MMXXlogo.png" alt="" width="179" height="92" id="Insert_logo" style="background-color: #C6D580; display:block;" /></a>
-  </header>
-  <div class="sidebar1">
-    <ul class="nav">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="persona.html">Persona</a></li>
-      <li><a href="scenario.html">Scenario</a></li>
-      <li><a href="wireframes.html">Wireframes</a></li>
-      <li><a href="icons.html">Icons</a></li>
-      <li><a href="logo.html">Logo</a></li>
-      <li><a href="media.html">Dynamic Media</a></li>
-      <li><a href="layouts.html">Layouts</a></li>
-      <li><a href="final/index.html" target="_blank">Final Project</a></li>
-    </ul>
-    <aside>
-      <p> CSE/ISE 333<br>
-        Fall 2016<br>
-&copy; My Name 2016      </p>
-    </aside>
-  <!-- end .sidebar1 --></div>
-  <article class="content">
-    <h1>Personas</h1>
-    <section>
-      <div title="Page 2">
-        <div>
-         <div>
-            <p><strong>End User: </strong>Female college students between their 1st and 3rd years who are majoring in
-              engineering or technical science. Students tend to be busy or try to multi-task so the website will need
-              to be simple, eye-catching and quick to go through while easily providing more information for those who
-              are very interested.
-              <br/><br/>
-              Most sorority/fraternity websites don't follow usability principles which result in sites that are overwhelmed
-              with text and content without really conveying key points the client wants to make. AOE wants their users
-              to know both the professional and social benefits for joining the sorority.
-              <br/><br/>
-              They also want the to display
-              their social media and on-campus presence by showcasing the events that they run and participate in. They
-              want to have a page to see all the sisters, their Greek class, and other links to social links and professional
-              contact (LinkedIn / Resumes)
-              <br/><br/>
-              Ultimately they want to highlight and emphasize all of the positives of joining AOE to entice recruits
 
-            </p>
-         </div>
+    <article class="content" style="background-color: white;">
+      <h1>Personas</h1>
+      <section>
+        <div title="Page 2">
+          <p>
+            <strong>End User: </strong>Female college students between their 1st and 3rd years who are majoring in
+            engineering or technical science. Students tend to be busy or try to multi-task so the website will need
+            to be simple, eye-catching and quick to go through while easily providing more information for those who
+            are very interested.
+            <br/><br/>
+            Most sorority/fraternity websites don't follow usability principles which result in sites that are overwhelmed
+            with text and content without really conveying key points the client wants to make. AOE wants their users
+            to know both the professional and social benefits for joining the sorority.
+            <br/><br/>
+            They also want the to display
+            their social media and on-campus presence by showcasing the events that they run and participate in. They
+            want to have a page to see all the sisters, their Greek class, and other links to social links and professional
+            contact (LinkedIn / Resumes)
+            <br/><br/>
+            Ultimately they want to highlight and emphasize all of the positives of joining AOE to entice recruits
+
+          </p>
         </div>
-    </div>
-<p>&nbsp;</p></section><section>
-    </section>
-    <!-- end .content --></article>
-  <footer>
-    <p>Contact:<br>
-    <a href="mailto:FirstName.LastName@stonybrook.edu">FirstName.LastName@stonybrook.edu</a></p>
-  </footer>
-<!-- end .container --></div>
+      </section>
+    </article>
+
+
+    <div id="#footer"></div>
+  </div>
 </body>
 </html>
+
+<script>
+  $("#sidebar").load("Layouts/sidebar.html");
+  $("#header").load("Layouts/header.html");
+  $("#footer").load("Layouts/footer.html");
+</script>
