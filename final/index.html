@@ -1,10 +1,62 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Final 333 project</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="https://fonts.googleapis.com/css?family=Cookie|Lato|Open+Sans|Source+Sans+Pro" rel="stylesheet">
+    <title>Final 333 project</title>
 </head>
 
-<body>
+<body style="height:100vh;width:100vw;overflow:hidden;display:flex;justify-content:center;align-items:center;">
+    <!-- Header -->
+    <div class="posAbs top0 lft0 rgt0" style="height:75px;width:100%;z-index:3;background-color:#f4f4f4;opacity:0.8;">
+
+    </div>
+    <!-- Background Photo and Film -->
+    <div style=height:100vh;width:100vw;display:flex;justify-content:center;align-items:center;position:absolute;top:0;bottom:0;left:0;right:0;">
+        <img src="../Media/Images/aoecover.jpg" height="100%" width="100%" />
+        <div class="posAbs bot0 rgt0 lft0 grad" style="height:100%;width:100%;z-index:1;opacity:0.85;"></div>
+    </div>
+    <!-- Text -->
+    <div class="centerText posRel" style="top:125px;z-index:2;">
+        <div class="posRel inlineBlock colWhite cookie" style="font-size: 10em;padding-bottom:10px;">
+            Alpha Omega Epsilon
+        </div>
+        <div class="posRel inlineBlock colWhite" style="font-size:1.75em;">
+            Social and Professional Sorority for Engineering and Technical Science Majors
+        </div>
+    </div>
+
 </body>
 </html>
+<style>
+    *{  font-family: 'Lato', sans-serif;  }
+    .posRel{  position: relative;              }
+    .cookie{  font-family: 'Cookie', cursive;  }
+    .colWhite {  color: white;      }
+    .backColWhite{background-color:white;}
+    .colBlue  {  color: #7289DA;    }
+    .backColBlue{background-color: #7289DA;    }
+    .colGrey  {  color: #99AAB5;    }
+    .backColGrey{background-color: #99AAB5;    }
+    .colDark  {  color: #2C2F33;    }
+    .backColDark{background-color: #2C2F33;    }
+    .colBlack  {  color:#23272A;    }
+    .backColBlack{background-color:#23272A;    }
+    .centerText { text-align: center;  }
+    .inlineBlock { display:inline-block;}
+    .centerBlock {margin-left:auto;margin-right:auto;}
+    .bordRed{border:1px solid red;}
+    .posAbs{position:absolute;}
+    .top0{top:0;}
+    .bot0{bottom:0;}
+    .lft0{left:0;}
+    .rgt{right:0;}
+
+    .grad {
+        background: #7289DA; /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient(#7289DA, #7289DA, #2C2F33); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(#7289DA, #7289DA, #2C2F33); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(#7289DA, #7289DA, #2C2F33); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to bottom, transparent, transparent, transparent, transparent, transparent, #2C2F33,  #2C2F33, #2C2F33, #2C2F33); /* Standard syntax */
+    }
+</style>
