@@ -6,22 +6,30 @@
     <title>Final 333 project</title>
 </head>
 
-<body style="height:100vh;width:100vw;overflow:hidden;display:flex;justify-content:center;align-items:center;">
+<body style="padding:0;margin:0;height:100vh;width:100vw;overflow:hidden;display:flex;justify-content:center;align-items:center;">
     <!-- Header -->
-    <div class="posAbs top0 lft0 rgt0" style="height:75px;width:100%;z-index:3;background-color:#f4f4f4;opacity:0.8;">
-
+    <div class="posAbs top0 lft0 rgt0 backColWhite" style="font-size:1.7em;overflow:hidden;padding-right:50px;height:75px;width:100%;z-index:3;opacity:1;display:flex;justify-content:flex-end;align-items:center;">
+        <div class="posAbs top0" style="left: 25px;display:flex;align-items:center;bottom:5px;"><img src="../Media/Images/aoelogo.jpg" height="60%" class="" style=""/></div>
+        <div class="inlineBlock colBlue fontJackBlack" style="padding:0 20px;">Home</div>
+        <div class="inlineBlock colBlue fontJackBlack" style="padding:0 20px;">About Us</div>
+        <div class="inlineBlock colBlue fontJackBlack" style="padding:0 20px;">Recruitment</div>
+        <div class="inlineBlock colBlue fontJackBlack" style="padding:0 20px;">Sisters</div>
+        <div class="inlineBlock colBlue fontJackBlack" style="padding:0 20px;">Gallery</div>
+        <div class="inlineBlock colBlue fontJackBlack" style="padding:0 20px;">Alumni</div>
+        <div class="inlineBlock colBlue fontJackBlack" style="padding:0 20px;">Contact</div>
+        <div class="inlineBlock" style="width:25px;"></div>
     </div>
     <!-- Background Photo and Film -->
-    <div style=height:100vh;width:100vw;display:flex;justify-content:center;align-items:center;position:absolute;top:0;bottom:0;left:0;right:0;">
-        <img src="../Media/Images/aoecover.jpg" height="100%" width="100%" />
-        <div class="posAbs bot0 rgt0 lft0 grad" style="height:100%;width:100%;z-index:1;opacity:0.85;"></div>
+    <div style=height:100vh;width:100vw;overflow:hidden;display:flex;justify-content:center;align-items:center;position:absolute;top:0;bottom:0;left:0;right:0;">
+        <img src="../Media/Images/aoecover.jpg" height="100%" width="100%" class="posRel" style="overflow:hidden;top:50px;"/>
+        <div class="posAbs bot0 rgt0 lft0 backColLBlue" style="height:100%;width:100%;z-index:1;opacity:0.4;"></div>
     </div>
     <!-- Text -->
-    <div class="centerText posRel" style="top:125px;z-index:2;">
-        <div class="posRel inlineBlock colWhite cookie" style="font-size: 10em;padding-bottom:10px;">
+    <div class="centerText posAbs bot0 lft0 rgt0 backColWhite" style="overflow:hidden;padding-bottom: 80px;padding-top:30px;z-index:2;">
+        <div class="posRel inlineBlock colBlue cookie" style="font-size: 10em;padding-bottom:10px;">
             Alpha Omega Epsilon
         </div>
-        <div class="posRel inlineBlock colWhite" style="font-size:1.75em;">
+        <div class="posRel inlineBlock colBlue" style="font-size:1.75em;">
             Social and Professional Sorority for Engineering and Technical Science Majors
         </div>
     </div>
@@ -34,8 +42,10 @@
     .cookie{  font-family: 'Cookie', cursive;  }
     .colWhite {  color: white;      }
     .backColWhite{background-color:white;}
-    .colBlue  {  color: #7289DA;    }
-    .backColBlue{background-color: #7289DA;    }
+    .colLBlue  {  color: #add5f7;    }
+    .backColLBlue{background-color: #add5f7;    }
+    .colBlue  {  color: #0f3a80;    }
+    .backColBlue{background-color: #0f3a80;    }
     .colGrey  {  color: #99AAB5;    }
     .backColGrey{background-color: #99AAB5;    }
     .colDark  {  color: #2C2F33;    }
@@ -51,6 +61,7 @@
     .bot0{bottom:0;}
     .lft0{left:0;}
     .rgt{right:0;}
+    .boldText{font-weight:bold;}
 
     .grad {
         background: #7289DA; /* For browsers that do not support gradients */
@@ -59,4 +70,9 @@
         background: -moz-linear-gradient(#7289DA, #7289DA, #2C2F33); /* For Firefox 3.6 to 15 */
         background: linear-gradient(to bottom, transparent, transparent, transparent, transparent, transparent, #2C2F33,  #2C2F33, #2C2F33, #2C2F33); /* Standard syntax */
     }
+    @font-face {
+        font-family: JackBlack;
+        src: url(../Media/Fonts/BlackJack.ttf);
+    }
+    .fontJackBlack{font-family:JackBlack, sans-serif;}
 </style>
