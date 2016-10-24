@@ -12,10 +12,46 @@
 
 
     <article class="content" style="background-color: white;">
-        <h1>Icons, Buttons, and Controls</h1>
+        <h1>Icons</h1>
         <section>
-            <h2><img src="Media/Icons/iconset.png" width="504" height="144" alt="Icon set"><!-- end .content --></h2>
+            <!--
+            <h2><img src="Media/Icons/iconset.png" width="504" height="144" alt="Icon set"></h2>
             <p><a href="Media/Icons/icon_font/demo.html" target="_blank">Icon font sampler</a></p>
+            -->
+
+            <p>Professional Icons</p>
+            <div class="icon-container"><div><h2 class="noformatting">Professional</h2>     <img src="./Media/Icons/professional.svg" class="fonticon" /></div></div>
+            <div class="icon-container"><div><h2 class="noformatting">Career Advice</h2>    <img src="./Media/Icons/careeradvice.svg" class="fonticon" /></div></div>
+            <div class="icon-container"><div><h2 class="noformatting">Job Contacts</h2>     <img src="./Media/Icons/jobreferrals.svg" class="fonticon" /></div></div>
+            <div class="icon-container"><div><h2 class="noformatting">Job Seeking</h2>      <img src="./Media/Icons/jobsearch.svg" class="fonticon" /></div></div>
+            <div class="icon-container"><div><h2 class="noformatting">Alumni Network</h2>   <img src="./Media/Icons/networking.svg" class="fonticon" /></div></div>
+            <div class="icon-container"><div><h2 class="noformatting">Resume Review</h2>    <img src="./Media/Icons/resumereview.svg" class="fonticon" /></div></div>
+
+            <p>Academic Icons</p>
+            <div class="icon-container"><div><h2 class="noformatting">Academic</h2>         <img src="./Media/Icons/academic.svg" class="fonticon" /></div></div>
+            <div class="icon-container"><div><h2 class="noformatting">Classes</h2>          <img src="./Media/Icons/classes.svg" class="fonticon" /></div></div>
+            <div class="icon-container"><div><h2 class="noformatting">Tutoring</h2>         <img src="./Media/Icons/tutoring.svg" class="fonticon" /></div></div>
+            <div class="icon-container"><div><h2 class="noformatting">Mentoring</h2>        <img src="./Media/Icons/mentor.svg" class="fonticon" /></div></div>
+            <div class="icon-container"><div><h2 class="noformatting">Goal Setting</h2>     <img src="./Media/Icons/goalsetting.svg" class="fonticon" /></div></div>
+            <div class="icon-container"><div><h2 class="noformatting">Time Management</h2>  <img src="./Media/Icons/timemanagement.svg" class="fonticon" /></div></div>
+
+            <p>Personal Icons</p>
+            <div class="icon-container"><div><h2 class="noformatting">Personal</h2>         <img src="./Media/Icons/personal.svg" class="fonticon" /></div></div>
+            <div class="icon-container"><div><h2 class="noformatting">Leadership</h2>       <img src="./Media/Icons/leadership.svg" class="fonticon" /></div></div>
+            <div class="icon-container"><div><h2 class="noformatting">Team</h2>             <img src="./Media/Icons/teamwork.svg" class="fonticon" /></div></div>
+            <div class="icon-container"><div><h2 class="noformatting">Confidence</h2>       <img src="./Media/Icons/publicspeaking.svg" class="fonticon" /></div></div>
+            <div class="icon-container"><div><h2 class="noformatting">Communication</h2>    <img src="./Media/Icons/communication.svg" class="fonticon" /></div></div>
+            <div class="icon-container"><div><h2 class="noformatting">Self-esteem</h2>      <img src="./Media/Icons/selfesteem.svg" class="fonticon" /></div></div>
+
+            <p>Relationship Icons</p>
+            <div class="icon-container"><div><h2 class="noformatting">Relationship</h2>     <img src="./Media/Icons/social.svg" class="fonticon" /></div></div>
+            <div class="icon-container"><div><h2 class="noformatting">Friendships</h2>      <img src="./Media/Icons/friends.svg" class="fonticon" /></div></div>
+            <div class="icon-container"><div><h2 class="noformatting">Support Group</h2>  <img src="./Media/Icons/supportgroup.svg" class="fonticon" /></div></div>
+
+            <p>Community Service</p>
+            <div class="icon-container"><div><h2 class="noformatting">Community Service</h2><img src="./Media/Icons/communityservice.svg" class="fonticon" /></div></div>
+            <div class="icon-container"><div><h2 class="noformatting">Operation Christmas Child</h2><img src="./Media/Icons/OCC.png" style="margin-left:10px;width:50px;" /></div></div>
+            <div class="icon-container"><div><h2 class="noformatting">Relay for Life</h2>   <img src="./Media/Icons/RelayForLife.png" class="fonticon" /></div></div>
         </section>
     </article>
 
@@ -30,3 +66,26 @@
     $("#header").load("Layouts/header.html");
     $("#footer").load("Layouts/footer.html");
 </script>
+<style>
+    .icon-container{
+        display:inline-block;
+        padding: 12px 20px;
+        border-radius: 4px;
+        border: 1px solid blue;
+        margin:10px;
+    }
+    .icon-container div{
+        display:flex;
+        align-items:center;
+        text-align: center;
+    }
+    .noformatting{
+        margin:0;
+        padding:0;
+    }
+    .fonticon{
+        height:40px;
+        width:40px;
+        margin-left:10px;
+    }
+</style>
