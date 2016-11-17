@@ -2,6 +2,8 @@
 <html>
 <head>
   <link href="Layouts/head.html" rel="import">
+      <link href="https://fonts.googleapis.com/css?family=Cookie|Lato|Open+Sans|Source+Sans+Pro" rel="stylesheet">
+
 </head>
 
 <body>
@@ -14,12 +16,31 @@
     <article class="content" style="background-color: white;">
       <h1>Layouts</h1>
       <section>
-      <h2><img src="Media/Layouts/StartPage.png" width="750" height="600" alt="Start page"></h2>
-      <h2><img src="Media/Layouts/Dashboard.png" width="750" height="600" alt="Dashboard"></h2>
-      <h2><img src="Media/Layouts/Discovery.png" width="750" height="600" alt="Discovery"></h2>
-      <h2><img src="Media/Layouts/Policy.png" width="750" height="600" alt="Policy"></h2>
-      <h2><img src="Media/Layouts/Reports.png" width="750" height="600" alt="Reports"></h2>
-      <h2><img src="Media/Layouts/HUD_UI.png" width="750" height="600" alt="HUD-UI"><!-- end .content --></h2>
+        <h2>Color Palette</h2>
+        <div>
+          <div class="color-sample backColWhite centerText colBlack">White</div>
+          <div class="color-sample backColLBlue centerText colBlack">#add5f7</div>
+          <div class="color-sample backColBlue centerText colWhite">#0f3a80</div>
+          <div class="color-sample backColGrey centerText colBlack">#99AAB5</div>
+          <div class="color-sample backColDark centerText colWhite">#2C2F33</div>
+          <div class="color-sample backColBlack centerText colWhite">#23272A</div>
+        </div>
+        <h2>Type Sample</h2>
+        <div style="margin:40px;">
+          <div class="fontJackBlack" style="font-size:5em;">Headline</div>
+          <div class="source posRel" style="font-size:4em;bottom:20px;">Subhead</div>
+          <i class="fontJackBlack posRel" style="font-size:2em;margin:10px 0;bottom:10px;">Caption</i>
+          <div class="" style="font-size:1.5em;margin:5px;">Body Copy</div>
+        </div>
+
+      <h2><img src="Media/Layouts/Home.png" width="750" alt="Start page"></h2>
+      <h2><img src="Media/Layouts/home1.png" width="750" alt="Start page"></h2>
+      <h2><img src="Media/Layouts/home2.png" width="750"  alt="Start page" style="position:relative;bottom:130px;"></h2>
+      <h2><img src="Media/Layouts/recruit.png" width="750"  alt="Start page"></h2>
+      <h2><img src="Media/Layouts/recruit1.png" width="750"  alt="Start page" style="position:relative;bottom:110px;"></h2>
+      <h2><img src="Media/Layouts/sisters.png" width="750"  alt="Start page"></h2>
+      <h2><img src="Media/Layouts/sisters2.png" width="750"  alt="Start page" style="position:relative;bottom:360px;"></h2>
+
       </section>
     </article>
 
@@ -34,3 +55,51 @@
   $("#header").load("Layouts/header.html");
   $("#footer").load("Layouts/footer.html");
 </script>
+<style>
+  .color-sample{
+    display:inline-block;
+    height:250px;width:150px;
+    padding-top:50px;margin:20px;
+    border:2px solid black;
+    font-size:1.5em;
+  }
+  *{  font-family: 'Lato', sans-serif;  }
+  .posRel{  position: relative;              }
+  .cookie{  font-family: 'Cookie', cursive;  }
+  .source{  font-family: 'Source Sans Pro', sans-serif;}
+  .colWhite {  color: white;      }
+  .backColWhite{background-color:white;}
+  .colLBlue  {  color: #add5f7;    }
+  .backColLBlue{background-color: #add5f7;    }
+  .colBlue  {  color: #0f3a80;    }
+  .backColBlue{background-color: #0f3a80;    }
+  .colGrey  {  color: #99AAB5;    }
+  .backColGrey{background-color: #99AAB5;    }
+  .colDark  {  color: #2C2F33;    }
+  .backColDark{background-color: #2C2F33;    }
+  .colBlack  {  color:#23272A;    }
+  .backColBlack{background-color:#23272A;    }
+  .centerText { text-align: center;  }
+  .inlineBlock { display:inline-block;}
+  .centerBlock {margin-left:auto;margin-right:auto;}
+  .bordRed{border:1px solid red;}
+  .posAbs{position:absolute;}
+  .top0{top:0;}
+  .bot0{bottom:0;}
+  .lft0{left:0;}
+  .rgt{right:0;}
+  .boldText{font-weight:bold;}
+
+  .grad {
+    background: #7289DA; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#7289DA, #7289DA, #2C2F33); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#7289DA, #7289DA, #2C2F33); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#7289DA, #7289DA, #2C2F33); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, transparent, transparent, transparent, transparent, transparent, #2C2F33,  #2C2F33, #2C2F33, #2C2F33); /* Standard syntax */
+  }
+  @font-face {
+    font-family: JackBlack;
+    src: url(Media/Fonts/BlackJack.ttf);
+  }
+  .fontJackBlack{font-family:JackBlack, sans-serif;}
+</style>

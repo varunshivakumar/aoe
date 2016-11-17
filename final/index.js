@@ -3,6 +3,7 @@
  */
 
 $(document).ready(function(){
+    $("#header").load('header.html');
 
     // Scrolling Animations
     AOS.init();

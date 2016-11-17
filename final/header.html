@@ -1,0 +1,31 @@
+<!-- Header -->
+<div class="posAbs top0 lft0 rgt0 backColorWhite width100 fontSize24 z3 vertCenterRight colNavyBlue" style="padding-right:50px;height:75px;">
+    <a href="index.html"><div id="home" class="posAbs top0 vertCenterLeft" style="left: 25px;bottom:5px;"><img src="../Media/Images/aoelogo.jpg" height="50%"/></div></a>
+    <a href="index.html"><div id="about" class="inlineBlock colNavyBlue fontJackBlack padLR20 textDecAuto pointer">About Us      </div></a>
+    <a href="recruitment.html"><div id="recruitment" class="inlineBlock colNavyBlue fontJackBlack padLR20 textDecAuto pointer">Recruitment   </div></a>
+    <a href="sisters.html"><div id="sisters" class="inlineBlock colNavyBlue fontJackBlack padLR20 textDecAuto pointer">Sisters       </div></a>
+    <a href=""><div id="gallery" class="inlineBlock colNavyBlue fontJackBlack padLR20 textDecAuto pointer">Gallery       </div></a>
+    <a href=""><div id="alumni" class="inlineBlock colNavyBlue fontJackBlack padLR20 textDecAuto pointer">Alumni        </div></a>
+    <a href=""><div id="contact" class="inlineBlock colNavyBlue fontJackBlack padLR20 textDecAuto pointer">Contact       </div></a>
+    <a href=""><div class="inlineBlock" style="width:25px;"></div></a>
+</div>
+
+
+<script>
+    var arr = window.location.pathname.split('/');
+    var fileno = arr[arr.length-1];
+    //alert(fileno);
+    if(fileno=="index.html"){
+        $("#about").css("text-decoration", "underline");
+    } else if(fileno=="recruitment.html"){
+        $("#recruitment").css("text-decoration", "underline");
+    } else if(fileno=="sisters.html"){
+        $("#sisters").css("text-decoration", "underline");
+    } else if(fileno=="gallery.html"){
+        $("#recruitment").css("text-decoration", "underline");
+    } else if(fileno=="alumni.html"){
+        $("#recruitment").css("text-decoration", "underline");
+    } else if(fileno=="contact.html"){
+        $("#recruitment").css("text-decoration", "underline");
+    }
+</script>
