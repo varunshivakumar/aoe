@@ -19,105 +19,273 @@
 <div class="posRel" style="min-height:100vh;">
     <div class="posRel" style="">
         <div id="header"></div><div style="height:75px;"></div>
-        <!-- Background Photo and Film -->
+        <!-- Background Photo -->
         <div class="posRel width100 overflowHidden" style="">
-            <img src="../Media/Images/aoecover1.jpg" width="100%" class="posRel z1" style=""/>
-            <div class="posAbs top0 bot0 left0 right0 backColorBlack z2" style="opacity:0.3;"></div>
+            <img src="../Media/Images/splash/aoecover1.jpg" width="100%" class="posRel z1" style=""/>
+            <div class="posAbs top0 bot0 left0 right0 backColorBlack z2" style="opacity:0.2;"></div>
+        </div>
+        <!-- Title -->
+        <div class="posAbs bot0 left0 right0 centerText z2 width100" style="padding-bottom:40px;padding-top:40px;">
+            <div class="posRel inlineBlock colWhite lato fontSize40 fontWeight300 colWhite" style="width:900px;">
+                <span class="fontJackBlack fontSize40 shadowText1 colWhite">
+                    <span id="bananaPartyBtn" class="colWhite fontJackBlack">A</span>lpha Omega Epsilon
+                    <audio id="bananaParty" loop="loop" src="audio/bananaparty.mp3" class="posAbs" style="opacity: 0;"></audio>
+                    <audio id="yukiyuki" loop="loop" src="audio/yukiyuki.mp3" class="posAbs" style="opacity: 0;"></audio>
+
+                </span>
+                <span class="fontSize12 shadowText1 colWhite">
+                    <br/>
+                    <b class="colWhite">Social</b>
+                    and
+                    <b class="colWhite">Professional </b>
+                    Sororit<span id="yukiyukiBtn" class="colWhite">y</span>
+                    <span class="fontSize12 colWhite">for</span><br/>
+                    <b class="colWhite">Engineering</b>  and
+                    <b class="colWhite">Technical Science</b>
+                    Majors
+                </span>
+                <script>
+                    // Banana Party Button
+                    $('#bananaPartyBtn').click(function(){  $('#bananaParty').trigger('play');});
+                    $('#yukiyukiBtn').click(function(){     $('#yukiyuki').trigger('play');});
+                </script>
+            </div>
         </div>
     </div>
     <!-- First Text Panel -->
-    <div class="centerText backColorF8F8F8 z2 width100" style="padding-bottom:40px;padding-top:40px;">
-        <div class="posRel inlineBlock colNavyBlue lato padBot10 fontSize40 fontWeight300" style="width:800px;">
-            <b>Social</b>
-            and
-            <b>Professional </b>
-            Sorority
-            <br/><span class="fontSize12">for</span><br/>
-            <b>Engineering</b>  and
-            <b>Technical Science</b>
-            Majors
-        </div>
+    <div class="posRel backColorWhite centerText z2 width100" style="padding-bottom:40px;padding-top:30px;">
+        <div>
+            <div class="centerText">
+                <div class="marg20 centerText">
+                    <div class="inlineBlock vertAlignTop marg10 fontSize18 leftText" style="width:500px;" data-aos="fade-right">
+                        <div class="margTB10 lato fontWeight300 colBlack" style="line-height:1.5em;">
+                            <div class="fontSize18 lato fontWeight600 colNavyBlue">The International Organization of Alpha Omega Epsilon</div>
+                            <br/>Alpha Omega Epsilon is a <b>professional</b>
+                            and <b>social sorority</b> comprised of females majoring in <b>engineering</b> and <b>technical science</b>. We
+                            were founded on November 13, 1983 at Marquette University in Wisconsin and have been
+                            <b>promoting friendship, leadership and professionalism</b> to all members of the organization,
+                            the community and our professions. Today, Alpha Omega Epsilon continues to grow as an
+                            international sorority across the United States and Canada.
+                        </div>
+                    </div>
+                    <div class="inlineBlock vertAlignTop marg10" style="width:300px;" data-aos="fade-left">
+                        <div class="posRel fontSize40 vertCenterMiddle bordRad5 overflowHidden">
+                            <div class="posRel z2 colNavyBlue">
+                                <img src="../Media/Images/marq-univ.jpg" height="170px"/>
+                                <div class="fontSize40">
+                                    <span class="colNavyBlue">19</span><span class="colNavyBlue">83</span>
+                                </div>
 
-        <div class="centerText margTop25">
-            <div class="inlineBlock vertAlignTop marg20" data-aos="fade-right">
-                <div class="posRel fontSize40 vertCenterMiddle bordRad5 overflowHidden" style="width:400px;height:300px;">
-                    <img src="../Media/Images/aoecover1-1.jpg" height="100%" width="100%" class="posAbs top0 bot0 left0 right0 z0"/>
-                    <div class="posAbs top0 bot0 left0 right0 z0 backColorBlack" style="opacity:0.4;"></div>
-                    <div class="posRel z2 colWhite">
-                        <div class="fontSize10 shadowText">Founded At</div>
-                        <div class="fontSize14 shadowText">Marquette University</div>
-                        <div class="fontSize40 shadowText">1983</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="inlineBlock vertAlignTop marg20" data-aos="fade-left">
-                <div class="posRel fontSize40 vertCenterMiddle bordRad5 overflowHidden" style="width:400px;height:300px;">
-                    <img src="../Media/Images/aoecover2.jpg" height="100%" width="100%" class="posAbs top0 bot0 left0 right0 z0"/>
-                    <div class="posAbs top0 bot0 left0 right0 z0 backColorBlack" style="opacity:0.4;"></div>
-                    <div class="posRel z2 colWhite">
-                        <div class="fontSize10 shadowText">Founded At</div>
-                        <div class="fontSize14 shadowText">Stony Brook University</div>
-                        <div class="fontSize40 shadowText">2011</div>
+                <div class="marg20 centerText">
+                    <div class="inlineBlock vertAlignTop marg10" style="width:300px;" data-aos="fade-right">
+                        <div class="posRel fontSize40 vertCenterMiddle bordRad5 overflowHidden">
+                            <div class="posRel z2 colNavyBlue">
+                                <img src="../Media/Images/stonybrook.png" height="200px"/>
+                                <div class="fontSize40">
+                                    <span class="colBlack">20</span><span class="colBlack">11</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="inlineBlock vertAlignTop marg10 fontSize18 leftText" style="width:500px;" data-aos="fade-left">
+                        <div class="margTB10 lato fontWeight300 coklBlack" style="line-height:1.5em;">
+                            Our chapter was founded on March 20th, 2011 by a group of enthusiastic female engineers led
+                            by <b>Debapria Das</b>, who was also our first president. Ever since then, AOE girls at Stony brook
+                            have been <b>actively involved</b> with <b>professional</b> and <b>charity events</b> on campus. We've also been
+                            friendly socializing with other greek organizations. Finally we started our <b>Beta Theta chapter
+                            on November 10th, 2012</b> with 13 dedicated charter members, Debapria Das, Koyel Chowdhury, Soni
+                            Kakran, Lisa Dang, Tanushree Sengupta, Piariny Taveras, Christina Cloutier, Jessica Barnett,
+                            Tiffany Haynes, Shushanna Cherian, Jacklyn Vendittelli, Briana Brown and Cindy Klager.
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
     <!-- Second Image Panel -->
-    <div id="" class="posRel backColorBlack vertCenterMiddle fontSize28 overflowHidden" style="max-height:320px;">
-        <img src="../Media/Images/aoecover.jpg" width="100%" class="z0 posRel" style="opacity:0.7;top:100px;"/>
+    <div id="" class="posRel backColorBlack vertCenterMiddle fontSize28 overflowHidden" style="max-height:400px;">
+        <img src="../Media/Images/splash/aoecover2.jpg" width="100%" class="z0 posRel" style="opacity:0.9;"/>
         <div class="posAbs height100 width100 top0 bot0 left0 right0 z2 backColorBlack" style="opacity:0.1;"></div>
-        <div class="centerText width100 height100 fontSize48 posAbs top0 bot0 left0 right0 colWhite fontWeight400 shadowText1 z3" style="padding-top:5vw;">Ideals</div>
+        <div class="centerText fontSize48 posAbs top0 bot0 left0 right0 colWhite fontWeight400 shadowText1 z3 vertCenterMiddle" style="">
+            <span class="fontSize18 colWhite">Ideals</span>
+        </div>
+
     </div>
-    <!-- First Text Panel -->
+    <!-- Second Text Panel -->
     <div class="centerText backColorF8F8F8 z2 width100" style="padding-bottom:40px;padding-top:40px;">
-        <div class="margTop25">
-            <div class="posRel inlineBlock vertAlignTop marg20" data-aos="fade-right">
-                <div class="posRel fontSize40 vertCenterMiddle bordRad50" style="width:400px;height:350px;">
-                    <img src="../Media/Images/aoecover1-1.jpg" height="100%" width="100%" class="posAbs top0 bot0 left0 right0 z0 bordRad50"/>
-                    <div class="posAbs top0 bot0 left0 right0 z0 backColorBlack bordRad50" style="opacity:0.4;"></div>
-                    <div class="posRel z2 colWhite italic shadowText fontSize12">
-                        "As an individual, I will promote integrity, character, honesty, self-confidence, and uphold my
-                        financial responsibilities."
-                    </div>
+        <!-- As an individual -->
+        <div class="centerBlock leftText marg10" style="width:800px;" data-aos="fade-right">
+            <div class="vertCenterMiddle">
+                <div class="inlineBlock vertAlignTop marg10">
+                    <img src="icons/social.svg" height="100px" />
                 </div>
-            </div>
-            <div class="posRel inlineBlock vertAlignTop marg20" data-aos="fade-left" style="top:175px;">
-                <div class="posRel fontSize40 vertCenterMiddle bordRad50" style="width:400px;height:350px;">
-                    <img src="../Media/Images/aoecover2.jpg" height="100%" width="100%" class="posAbs top0 bot0 left0 right0 z0 bordRad50"/>
-                    <div class="posAbs top0 bot0 left0 right0 z0 backColorBlack bordRad50" style="opacity:0.4;"></div>
-                    <div class="posRel z2 colWhite italic shadowText fontSize12">
-                        "As a Sorority, we will promote unity, friendship, professionalism, follow traditions, a
-                        nd maintain our image."
+                <div class="inlineBlock vertAlignTop marg10">
+                    <div class="fontWeight600 fontSize32">As an individual,</div>
+                    <div class="fontWeight300 fontSize20">
+                        I will promote integrity, character, honesty, self-confidence, and uphold my financial responsibilities
                     </div>
                 </div>
             </div>
         </div>
-        <div class="">
-            <div class="posRel inlineBlock vertAlignTop marg20" data-aos="fade-right">
-                <div class="posRel fontSize40 vertCenterMiddle bordRad50" style="width:400px;height:350px;">
-                    <img src="../Media/Images/aoecover1-1.jpg" height="100%" width="100%" class="posAbs top0 bot0 left0 right0 z0 bordRad50"/>
-                    <div class="posAbs top0 bot0 left0 right0 z0 backColorBlack bordRad50" style="opacity:0.4;"></div>
-                    <div class="posRel z2 colWhite italic shadowText fontSize12">
-                        "As an integral part of the school, we will promote engineering and technical science activities,
-                        high scholastic standards, and strong relations between students and faculty."
+        <!-- As a sorority -->
+        <div class="centerBlock leftText marg10" style="width:800px;" data-aos="fade-left">
+            <div class="vertCenterMiddle">
+                <div class="visibilityHidden inlineBlock vertAlignTop marg10">
+                    <img src="icons/gardenia.svg" height="100px" />
+                </div>
+                <div class="inlineBlock vertAlignTop marg10">
+                    <div class="fontWeight600 fontSize32">As a sorority,</div>
+                    <div class="fontWeight300 fontSize20">
+                        we will promote unity, friendship, professionalism, follow traditions, and maintain our image
                     </div>
                 </div>
+                <div class="inlineBlock vertAlignTop marg10">
+                    <img src="icons/gardenia.svg" height="100px" class="backColorBlack bordRad50 pad8" />
+                </div>
             </div>
-            <div class="posRel inlineBlock vertAlignTop marg20" data-aos="fade-left" style="top:175px;">
-                <div class="posRel fontSize40 vertCenterMiddle bordRad50" style="width:400px;height:350px;">
-                    <img src="../Media/Images/aoecover2.jpg" height="100%" width="100%" class="posAbs top0 bot0 left0 right0 z0 bordRad50"/>
-                    <div class="posAbs top0 bot0 left0 right0 z0 backColorBlack bordRad50" style="opacity:0.4;"></div>
-                    <div class="posRel z2 colWhite italic shadowText fontSize12">
-                        "As an active member in the community, we will promote understanding, knowledge,
-                        and communication within our profession."
+        </div>
+        <!-- As an individual -->
+        <div class="centerBlock leftText marg10" style="width:800px;" data-aos="fade-right">
+            <div class="vertCenterMiddle">
+
+                <div class="inlineBlock vertAlignTop marg10">
+                    <img src="icons/school.svg" height="100px" />
+                </div>
+                <div class="inlineBlock vertAlignTop marg10">
+                    <div class="fontWeight600 fontSize32">As an integral part of the school,</div>
+                    <div class="fontWeight300 fontSize20">
+                        we will promote engineering and technical science activities, high scholastic standards,
+                        and strong relations between students and faculty.
                     </div>
                 </div>
             </div>
         </div>
+        <!-- As an individual -->
+        <div class="centerBlock leftText marg10" style="width:800px;" data-aos="fade-left">
+            <div class="vertCenterMiddle">
+                <div class="visibilityHidden inlineBlock vertAlignTop marg10">
+                    <img src="icons/team.svg" height="100px" />
+                </div>
+                <div class="inlineBlock vertAlignTop marg10">
+                    <div class="fontWeight600 fontSize32">As an active member in the community,</div>
+                    <div class="fontWeight300 fontSize20">
+                        we will promote understanding, knowledge, and communication within our profession.
+                    </div>
+                </div>
+                <div class="inlineBlock vertAlignTop marg10">
+                    <img src="icons/team.svg" height="100px" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Third Image Panel -->
+    <div id="#" class="posRel backColorBlack vertCenterMiddle fontSize28 overflowHidden" style="max-height:440px;">
+        <img src="../Media/Images/splash/aoecover3-1.png" width="100%" class="z0 posRel" style="opacity:0.9;"/>
+        <div class="posAbs height100 width100 top0 bot0 left0 right0 z2 backColorBlack" style="opacity:0.1;"></div>
+        <div class="centerText fontSize48 posAbs top0 bot0 left0 right0 colWhite fontWeight400 shadowText1 z3 vertCenterMiddle" style="">
+            <span class="fontSize18 colWhite">Objectives</span>
+        </div>
+    </div>
+    <!-- Third Text Panel -->
+    <div class="centerText backColorF8F8F8 z2 width100" style="padding-bottom:40px;padding-top:40px;">
+        <!-- To create friendships... -->
+        <div class="" data-aos="fade-right">
+            <div class="vertCenterLeft centerBlock" style="width:900px;">
+                <div class="inlineBlock vertAlignTop marg10">
+                    <img src="icons/woman.svg" height="80px" />
+                </div>
+                <div class="inlineBlock vertAlignTop marg10 fontWeight300 fontSize24">
+                    To create <b>friendships</b> while promoting <b>self-confidence</b>, <b>professionalism</b>, and
+                    <b>motivation</b> among female engineers of all curricula
+                </div>
+            </div>
+        </div>
+        <!-- To work for... -->
+        <div class="" data-aos="fade-left">
+            <div class="vertCenterRight centerBlock" style="width:900px;">
+                <div class="inlineBlock vertAlignTop marg10 fontWeight300 fontSize24">
+                    To work for the <b>betterment</b> of the <b>individual</b> and the <b>sorority</b> as a whole
+                </div>
+                <div class="inlineBlock vertAlignTop marg10">
+                    <img src="icons/diagram.svg" height="80px" />
+                </div>
+            </div>
+        </div>
+        <!-- To create a... -->
+        <div class="" data-aos="fade-right">
+            <div class="vertCenterLeft centerBlock" style="width:900px;">
+                <div class="inlineBlock vertAlignTop marg10">
+                    <img src="icons/beach.svg" height="80px" />
+                </div>
+                <div class="inlineBlock vertAlignTop marg10 fontWeight300 fontSize24">
+                    To create a <b>friendly</b> and <b>warm</b> environment among its <b>members</b>
+                </div>
+            </div>
+        </div>
+        <!-- To promote the... -->
+        <div class="" data-aos="fade-left">
+            <div class="vertCenterRight centerBlock" style="width:900px;">
+                <div class="inlineBlock vertAlignTop marg10 fontWeight300 fontSize24">
+                    To <b>promote</b> the welfare and interests of the <b>profession</b>
+                </div>
+                <div class="inlineBlock vertAlignTop marg10">
+                    <img src="icons/science.svg" height="80px" />
+                </div>
+            </div>
+        </div>
+        <!-- To strengthen the... -->
+        <div class="" data-aos="fade-right">
+            <div class="vertCenterLeft centerBlock" style="width:900px;">
+                <div class="inlineBlock vertAlignTop marg10">
+                    <img src="icons/teacher.svg" height="80px" />
+                </div>
+                <div class="inlineBlock vertAlignTop marg10 fontWeight300 fontSize24">
+                    To <b>strengthen</b> the <b>relationships</b> between students and <b>faculty</b>
+                </div>
+            </div>
+        </div>
+        <!-- To enhance educational... -->
+        <div class="" data-aos="fade-left">
+            <div class="vertCenterRight centerBlock" style="width:900px;">
+                <div class="inlineBlock vertAlignTop marg10 fontWeight300 fontSize24">
+                    To enhance educational <b>achievements</b> and <b>scholarship</b>
+                </div>
+                <div class="inlineBlock vertAlignTop marg10">
+                    <img src="icons/graduate.svg" height="80px" />
+                </div>
+            </div>
+        </div>
+        <!-- To help develop... -->
+        <div class="" data-aos="fade-right">
+            <div class="vertCenterLeft centerBlock" style="width:900px;">
+                <div class="inlineBlock vertAlignTop marg10">
+                    <img src="icons/medal.svg" height="80px" />
+                </div>
+                <div class="inlineBlock vertAlignTop marg10 fontWeight300 fontSize24">
+                    To help develop the <b>highest standards of personal integrity</b> and <b>character</b>
+                </div>
+            </div>
+        </div>
+        <!-- To foster and... -->
+        <div class="" data-aos="fade-left">
+            <div class="vertCenterRight centerBlock" style="width:900px;">
+                <div class="inlineBlock vertAlignTop marg10 fontWeight300 fontSize24 rightText">
+                    To <b>foster</b> and maintain the <b>bond of sisterhood</b> through a continuing program for the alumnae
+                </div>
+                <div class="inlineBlock vertAlignTop marg10">
+                    <img src="icons/molecular.svg" height="80px" />
+                </div>
+            </div>
+        </div>
+
     </div>
 
+    <div id="footer"></div>
 </div>
 </body>
 </html>

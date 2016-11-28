@@ -6,7 +6,8 @@
 .raleway {  font-family:'Raleway', sans-serif;  }
 
 /* SPECIAL */
-*{  font-family: 'Lato', sans-serif;  }
+*{  font-family: 'Lato', sans-serif; color:#262626; }
+b{color:inherit;}
 .colLBlue       {  color: #add5f7;    }
 .backColLBlue   {  background-color: #add5f7;    }
 .colNavyBlue    {  color: #144CA6;    }
@@ -55,6 +56,7 @@ body {
 /* Text Shadows */
 .shadowText{  text-shadow: 1px 1px 4px #000000  }
 .shadowText1{  text-shadow: 1px 1px 15px #000000  }
+.shadowText2{  text-shadow: 1px 1px 1px #000000  }
 
 
 .outlineText {
@@ -309,7 +311,8 @@ img {  -moz-user-select: none;  -webkit-user-drag: none;  }
 .bordBotLightGray1{  border-bottom: 1px solid lightgray;  }
 .bordBotShadowGray{  border-bottom: 1px solid #dbdacf;    }
 .bordBotBlack3    {  border-bottom: 3px solid #464646;    }
-.bordBotDPurple3  {  border-bottom:3px solid #6A59A8;     }
+.bordBotNBlue3    {  border-bottom: 3px solid #0f3a80;    }
+.bordBotDPurple3  {  border-bottom: 3px solid #6A59A8;     }
 
 
 /* Borders */
@@ -430,6 +433,10 @@ img {  -moz-user-select: none;  -webkit-user-drag: none;  }
     border-top: none;
     border-left: none;
     border-right: none;
+}
+.pressBtn3:hover{
+    border-bottom:none;
+    margin-bottom:3px;
 }
 
 
