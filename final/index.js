@@ -8,6 +8,25 @@ $(document).ready(function(){
 
     // Scrolling Animations
     AOS.init();
+
+
+    // Form Message
+    function postContactToGoogle(){
+        alert("hello");
+        var name = $('#name').value();
+        var message = $('#message').value();
+        if (name !== "") {
+            $.ajax({ url: "https://docs.google.com/forms/d/1-9ot14C9_ycZadWJJMieKKDPzXy83f-adaahMkdV0aE/formResponse",
+                data: {"entry.1010706963" : name, "entry.1673841111" : message },
+                type: "POST",
+                dataType: "xml",
+                statusCode: {
+                    0: function (){alert("Success 0!")},
+                    200: function (){alert("Success 200!")}
+                }
+            });
+        }
+    }
 });
 
 
